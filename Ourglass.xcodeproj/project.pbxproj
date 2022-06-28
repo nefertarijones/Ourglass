@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7DBED94286B8FA900070807 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DBED93286B8FA900070807 /* AppDelegate.swift */; };
+		D7DBED96286B8FA900070807 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DBED95286B8FA900070807 /* SceneDelegate.swift */; };
+		D7DBED98286B8FA900070807 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DBED97286B8FA900070807 /* ViewController.swift */; };
+		D7DBED9B286B8FA900070807 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7DBED99286B8FA900070807 /* Main.storyboard */; };
+		D7DBED9E286B8FA900070807 /* Ourglass.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D7DBED9C286B8FA900070807 /* Ourglass.xcdatamodeld */; };
+		D7DBEDA0286B8FAA00070807 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7DBED9F286B8FAA00070807 /* Assets.xcassets */; };
+		D7DBEDA3286B8FAA00070807 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7DBEDA1286B8FAA00070807 /* LaunchScreen.storyboard */; };
+		D7DBEDAE286B8FAA00070807 /* OurglassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DBEDAD286B8FAA00070807 /* OurglassTests.swift */; };
+		D7DBEDB8286B8FAA00070807 /* OurglassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DBEDB7286B8FAA00070807 /* OurglassUITests.swift */; };
+		D7DBEDBA286B8FAA00070807 /* OurglassUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DBEDB9286B8FAA00070807 /* OurglassUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7DBEDAA286B8FAA00070807 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7DBED88286B8FA900070807 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7DBED8F286B8FA900070807;
+			remoteInfo = Ourglass;
+		};
+		D7DBEDB4286B8FAA00070807 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7DBED88286B8FA900070807 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7DBED8F286B8FA900070807;
+			remoteInfo = Ourglass;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D7DBED90286B8FA900070807 /* Ourglass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ourglass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7DBED93286B8FA900070807 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7DBED95286B8FA900070807 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D7DBED97286B8FA900070807 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7DBED9A286B8FA900070807 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7DBED9D286B8FA900070807 /* Ourglass.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ourglass.xcdatamodel; sourceTree = "<group>"; };
+		D7DBED9F286B8FAA00070807 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7DBEDA2286B8FAA00070807 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7DBEDA4286B8FAA00070807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7DBEDA9286B8FAA00070807 /* OurglassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OurglassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7DBEDAD286B8FAA00070807 /* OurglassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OurglassTests.swift; sourceTree = "<group>"; };
+		D7DBEDB3286B8FAA00070807 /* OurglassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OurglassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7DBEDB7286B8FAA00070807 /* OurglassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OurglassUITests.swift; sourceTree = "<group>"; };
+		D7DBEDB9286B8FAA00070807 /* OurglassUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OurglassUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7DBED8D286B8FA900070807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7DBEDA6286B8FAA00070807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7DBEDB0286B8FAA00070807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7DBED87286B8FA900070807 = {
+			isa = PBXGroup;
+			children = (
+				D7DBED92286B8FA900070807 /* Ourglass */,
+				D7DBEDAC286B8FAA00070807 /* OurglassTests */,
+				D7DBEDB6286B8FAA00070807 /* OurglassUITests */,
+				D7DBED91286B8FA900070807 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7DBED91286B8FA900070807 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7DBED90286B8FA900070807 /* Ourglass.app */,
+				D7DBEDA9286B8FAA00070807 /* OurglassTests.xctest */,
+				D7DBEDB3286B8FAA00070807 /* OurglassUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7DBED92286B8FA900070807 /* Ourglass */ = {
+			isa = PBXGroup;
+			children = (
+				D7DBED93286B8FA900070807 /* AppDelegate.swift */,
+				D7DBED95286B8FA900070807 /* SceneDelegate.swift */,
+				D7DBED97286B8FA900070807 /* ViewController.swift */,
+				D7DBED99286B8FA900070807 /* Main.storyboard */,
+				D7DBED9F286B8FAA00070807 /* Assets.xcassets */,
+				D7DBEDA1286B8FAA00070807 /* LaunchScreen.storyboard */,
+				D7DBEDA4286B8FAA00070807 /* Info.plist */,
+				D7DBED9C286B8FA900070807 /* Ourglass.xcdatamodeld */,
+			);
+			path = Ourglass;
+			sourceTree = "<group>";
+		};
+		D7DBEDAC286B8FAA00070807 /* OurglassTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7DBEDAD286B8FAA00070807 /* OurglassTests.swift */,
+			);
+			path = OurglassTests;
+			sourceTree = "<group>";
+		};
+		D7DBEDB6286B8FAA00070807 /* OurglassUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D7DBEDB7286B8FAA00070807 /* OurglassUITests.swift */,
+				D7DBEDB9286B8FAA00070807 /* OurglassUITestsLaunchTests.swift */,
+			);
+			path = OurglassUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7DBED8F286B8FA900070807 /* Ourglass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7DBEDBD286B8FAA00070807 /* Build configuration list for PBXNativeTarget "Ourglass" */;
+			buildPhases = (
+				D7DBED8C286B8FA900070807 /* Sources */,
+				D7DBED8D286B8FA900070807 /* Frameworks */,
+				D7DBED8E286B8FA900070807 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ourglass;
+			productName = Ourglass;
+			productReference = D7DBED90286B8FA900070807 /* Ourglass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7DBEDA8286B8FAA00070807 /* OurglassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7DBEDC0286B8FAA00070807 /* Build configuration list for PBXNativeTarget "OurglassTests" */;
+			buildPhases = (
+				D7DBEDA5286B8FAA00070807 /* Sources */,
+				D7DBEDA6286B8FAA00070807 /* Frameworks */,
+				D7DBEDA7286B8FAA00070807 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7DBEDAB286B8FAA00070807 /* PBXTargetDependency */,
+			);
+			name = OurglassTests;
+			productName = OurglassTests;
+			productReference = D7DBEDA9286B8FAA00070807 /* OurglassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7DBEDB2286B8FAA00070807 /* OurglassUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7DBEDC3286B8FAA00070807 /* Build configuration list for PBXNativeTarget "OurglassUITests" */;
+			buildPhases = (
+				D7DBEDAF286B8FAA00070807 /* Sources */,
+				D7DBEDB0286B8FAA00070807 /* Frameworks */,
+				D7DBEDB1286B8FAA00070807 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7DBEDB5286B8FAA00070807 /* PBXTargetDependency */,
+			);
+			name = OurglassUITests;
+			productName = OurglassUITests;
+			productReference = D7DBEDB3286B8FAA00070807 /* OurglassUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7DBED88286B8FA900070807 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D7DBED8F286B8FA900070807 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					D7DBEDA8286B8FAA00070807 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D7DBED8F286B8FA900070807;
+					};
+					D7DBEDB2286B8FAA00070807 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D7DBED8F286B8FA900070807;
+					};
+				};
+			};
+			buildConfigurationList = D7DBED8B286B8FA900070807 /* Build configuration list for PBXProject "Ourglass" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7DBED87286B8FA900070807;
+			productRefGroup = D7DBED91286B8FA900070807 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7DBED8F286B8FA900070807 /* Ourglass */,
+				D7DBEDA8286B8FAA00070807 /* OurglassTests */,
+				D7DBEDB2286B8FAA00070807 /* OurglassUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7DBED8E286B8FA900070807 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7DBEDA3286B8FAA00070807 /* LaunchScreen.storyboard in Resources */,
+				D7DBEDA0286B8FAA00070807 /* Assets.xcassets in Resources */,
+				D7DBED9B286B8FA900070807 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7DBEDA7286B8FAA00070807 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7DBEDB1286B8FAA00070807 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7DBED8C286B8FA900070807 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7DBED98286B8FA900070807 /* ViewController.swift in Sources */,
+				D7DBED9E286B8FA900070807 /* Ourglass.xcdatamodeld in Sources */,
+				D7DBED94286B8FA900070807 /* AppDelegate.swift in Sources */,
+				D7DBED96286B8FA900070807 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7DBEDA5286B8FAA00070807 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7DBEDAE286B8FAA00070807 /* OurglassTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7DBEDAF286B8FAA00070807 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7DBEDBA286B8FAA00070807 /* OurglassUITestsLaunchTests.swift in Sources */,
+				D7DBEDB8286B8FAA00070807 /* OurglassUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7DBEDAB286B8FAA00070807 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7DBED8F286B8FA900070807 /* Ourglass */;
+			targetProxy = D7DBEDAA286B8FAA00070807 /* PBXContainerItemProxy */;
+		};
+		D7DBEDB5286B8FAA00070807 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7DBED8F286B8FA900070807 /* Ourglass */;
+			targetProxy = D7DBEDB4286B8FAA00070807 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7DBED99286B8FA900070807 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7DBED9A286B8FA900070807 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7DBEDA1286B8FAA00070807 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7DBEDA2286B8FAA00070807 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7DBEDBB286B8FAA00070807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7DBEDBC286B8FAA00070807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7DBEDBE286B8FAA00070807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T86X57D865;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ourglass/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.Ourglass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7DBEDBF286B8FAA00070807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T86X57D865;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ourglass/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.Ourglass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D7DBEDC1286B8FAA00070807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T86X57D865;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.OurglassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ourglass.app/Ourglass";
+			};
+			name = Debug;
+		};
+		D7DBEDC2286B8FAA00070807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T86X57D865;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.OurglassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ourglass.app/Ourglass";
+			};
+			name = Release;
+		};
+		D7DBEDC4286B8FAA00070807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T86X57D865;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.OurglassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ourglass;
+			};
+			name = Debug;
+		};
+		D7DBEDC5286B8FAA00070807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T86X57D865;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.OurglassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ourglass;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7DBED8B286B8FA900070807 /* Build configuration list for PBXProject "Ourglass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7DBEDBB286B8FAA00070807 /* Debug */,
+				D7DBEDBC286B8FAA00070807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7DBEDBD286B8FAA00070807 /* Build configuration list for PBXNativeTarget "Ourglass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7DBEDBE286B8FAA00070807 /* Debug */,
+				D7DBEDBF286B8FAA00070807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7DBEDC0286B8FAA00070807 /* Build configuration list for PBXNativeTarget "OurglassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7DBEDC1286B8FAA00070807 /* Debug */,
+				D7DBEDC2286B8FAA00070807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7DBEDC3286B8FAA00070807 /* Build configuration list for PBXNativeTarget "OurglassUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7DBEDC4286B8FAA00070807 /* Debug */,
+				D7DBEDC5286B8FAA00070807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D7DBED9C286B8FA900070807 /* Ourglass.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D7DBED9D286B8FA900070807 /* Ourglass.xcdatamodel */,
+			);
+			currentVersion = D7DBED9D286B8FA900070807 /* Ourglass.xcdatamodel */;
+			path = Ourglass.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D7DBED88286B8FA900070807 /* Project object */;
+}
