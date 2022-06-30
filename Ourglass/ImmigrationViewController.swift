@@ -1,5 +1,5 @@
 //
-//  RacialEqualityViewController.swift
+//  ImmigrationViewController.swift
 //  Ourglass
 //
 //  Created by Nefertari Jones on 6/30/22.
@@ -7,17 +7,18 @@
 
 import UIKit
 
-class RacialEqualityViewController: UIViewController {
+class ImmigrationViewController: UIViewController {
 
     @IBOutlet weak var listView: UITextView!
     @IBOutlet weak var textField: UITextField!
-    
     @IBAction func buttonTapped(_ sender: Any) {
         listView.text =  textField.text! + "\n" + listView.text!
         textField.text = ""
     }
     @IBAction func clearTapped(_ sender: Any) {
         listView.text = ""
+
+
     }
     override func viewDidLoad() {
         super.viewDidLoad()

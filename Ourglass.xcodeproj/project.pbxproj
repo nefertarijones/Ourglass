@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D7B7C468286E308F00A14509 /* WomensRightsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B7C467286E308F00A14509 /* WomensRightsViewController.swift */; };
 		D7B7C46A286E324100A14509 /* RacialEqualityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B7C469286E324100A14509 /* RacialEqualityViewController.swift */; };
+		D7B7C46C286E33E700A14509 /* ImmigrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B7C46B286E33E700A14509 /* ImmigrationViewController.swift */; };
 		D7DBED94286B8FA900070807 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DBED93286B8FA900070807 /* AppDelegate.swift */; };
 		D7DBED96286B8FA900070807 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DBED95286B8FA900070807 /* SceneDelegate.swift */; };
 		D7DBED98286B8FA900070807 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DBED97286B8FA900070807 /* ViewController.swift */; };
@@ -47,6 +48,7 @@
 /* Begin PBXFileReference section */
 		D7B7C467286E308F00A14509 /* WomensRightsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WomensRightsViewController.swift; sourceTree = "<group>"; };
 		D7B7C469286E324100A14509 /* RacialEqualityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacialEqualityViewController.swift; sourceTree = "<group>"; };
+		D7B7C46B286E33E700A14509 /* ImmigrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmigrationViewController.swift; sourceTree = "<group>"; };
 		D7DBED90286B8FA900070807 /* Ourglass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ourglass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7DBED93286B8FA900070807 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7DBED95286B8FA900070807 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				D7DBED95286B8FA900070807 /* SceneDelegate.swift */,
 				D7DBED97286B8FA900070807 /* ViewController.swift */,
 				D7DBED99286B8FA900070807 /* Main.storyboard */,
+				D7B7C46B286E33E700A14509 /* ImmigrationViewController.swift */,
 				D7B7C469286E324100A14509 /* RacialEqualityViewController.swift */,
 				D7B7C467286E308F00A14509 /* WomensRightsViewController.swift */,
 				D7DBEDD0286DF86500070807 /* ClimateChangeViewController.swift */,
@@ -288,6 +291,7 @@
 				D7DBED98286B8FA900070807 /* ViewController.swift in Sources */,
 				D7DBEDCF286DED8900070807 /* AboutUsViewController.swift in Sources */,
 				D7DBED9E286B8FA900070807 /* Ourglass.xcdatamodeld in Sources */,
+				D7B7C46C286E33E700A14509 /* ImmigrationViewController.swift in Sources */,
 				D7DBEDC9286DED3500070807 /* SignInViewController.swift in Sources */,
 				D7B7C468286E308F00A14509 /* WomensRightsViewController.swift in Sources */,
 				D7DBED94286B8FA900070807 /* AppDelegate.swift in Sources */,
