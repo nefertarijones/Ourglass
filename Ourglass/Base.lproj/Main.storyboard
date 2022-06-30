@@ -141,40 +141,46 @@
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="83.705357142857139"/>
         </scene>
-        <!--About Us View Controller-->
-        <scene sceneID="B0C-pj-WzE">
+        <!--View Controller-->
+        <scene sceneID="rFf-Ey-pcZ">
             <objects>
-                <viewController id="A9x-9z-NrJ" customClass="AboutUsViewController" customModule="Ourglass" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="qs2-q9-YAN">
+                <viewController id="Nhz-cL-sJx" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cOh-NS-p8p">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Hourglass (3)" translatesAutoresizingMaskIntoConstraints="NO" id="L5i-AH-ZYb">
-                                <rect key="frame" x="102" y="164" width="211" height="114"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About Us" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u9s-ob-tKe">
+                                <rect key="frame" x="11" y="31" width="393" height="142"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="53"/>
+                                <color key="textColor" red="0.27058823529999998" green="0.4823529412" blue="0.61568627450000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="nAM-0L-dxc">
+                                <rect key="frame" x="54" y="310" width="307" height="364"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.98823529409999999" green="0.97254901959999995" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <mutableString key="text">Welcome to the Ourglass community!                                                               From day one we have strived to ensure that everyone has a platform to engage with the community and utilize their time to create social change. We developed this app as a way to organize ideas and areas that one may be passionate about and then based upon the categories, find events that align with their available time and interests. Our time is your time. We hope to continue to build a strong fan base and align our goals with the needs of the community and their positive impact in the future. Time is sliding by, but we won't waste a minute of it.
+-Ourglass Family</mutableString>
+                                <color key="textColor" red="0.27058823529999998" green="0.4823529412" blue="0.61568627450000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="SinhalaSangamMN" family="Sinhala Sangam MN" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Hourglass (3)" translatesAutoresizingMaskIntoConstraints="NO" id="ZeU-hR-Ybh" propertyAccessControl="none">
+                                <rect key="frame" x="102" y="159" width="211" height="114"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eok-eh-iSq">
-                                <rect key="frame" x="79" y="783" width="47" height="27"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HGU-U9-9an">
+                                <rect key="frame" x="88" y="750" width="47" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.27058823529999998" green="0.4823529412" blue="0.61568627450000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="questionmark.app" catalog="system">
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="large"/>
                                 </buttonConfiguration>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fZb-ZP-2x2">
-                                <rect key="frame" x="176" y="783" width="47" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.27058823529999998" green="0.4823529412" blue="0.61568627450000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="house.fill" catalog="system">
-                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="large"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="Fmg-4d-Xee" kind="show" id="6PK-yP-BVw"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P2P-ZK-RWd">
-                                <rect key="frame" x="285" y="783" width="47" height="27"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lpx-j9-btO">
+                                <rect key="frame" x="279" y="750" width="47" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.27058823529999998" green="0.4823529412" blue="0.61568627450000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
@@ -182,37 +188,31 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="large"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="4J2-rZ-FlJ" kind="show" id="5OP-3s-NVc"/>
+                                    <segue destination="4J2-rZ-FlJ" kind="show" id="367-Na-41v"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="About Us" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IOb-w5-9i4">
-                                <rect key="frame" x="11" y="44" width="393" height="142"/>
-                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="46"/>
-                                <color key="textColor" red="0.27058823529999998" green="0.4823529412" blue="0.61568627450000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zKI-qh-0dV">
-                                <rect key="frame" x="39" y="269" width="355" height="489"/>
-                                <color key="backgroundColor" red="0.98823529409999999" green="0.97254901959999995" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Welcome to the Ourglass community!                                                               From day one we have strived to ensure that everyone has a platform to engage with the community and utilize their time to create social change. We developed this app as a way to organize ideas and areas that one may be passionate about and then based upon the categories, find events that align with their available time and interests. Our time is your time. We hope to continue to build a strong fan base and align our goals with the needs of the community and their positive impact in the future. Time is sliding by, but we won't waste a minute of it.
--Ourglass Family</string>
-                                <color key="textColor" red="0.0039215686269999999" green="0.1176470588" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="SinhalaSangamMN" family="Sinhala Sangam MN" pointSize="20"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tB2-IG-wyj">
+                                <rect key="frame" x="189" y="750" width="47" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.27058823529999998" green="0.4823529412" blue="0.61568627450000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="house.fill" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="large"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Fmg-4d-Xee" kind="show" id="RdD-vk-V4O"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="abH-1u-elr"/>
-                        <color key="backgroundColor" red="0.98823529409999999" green="0.97254901959999995" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstItem="Eok-eh-iSq" firstAttribute="top" secondItem="IOb-w5-9i4" secondAttribute="top" id="bMQ-84-KTE"/>
-                            <constraint firstItem="Eok-eh-iSq" firstAttribute="top" secondItem="zKI-qh-0dV" secondAttribute="top" id="qms-i0-zKe"/>
-                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="UvN-Ae-CQy"/>
+                        <color key="backgroundColor" red="0.98039215800000001" green="0.97254908080000002" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" red="0.98823529409999999" green="0.97254901959999995" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="shD-uW-CAX"/>
+                    <navigationItem key="navigationItem" id="MzB-Ek-pzk"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vdI-iB-zAV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXU-6h-Nfz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1372.4637681159422" y="796.875"/>
+            <point key="canvasLocation" x="-869.56521739130437" y="1392.8571428571429"/>
         </scene>
         <!--Profile View Controller-->
         <scene sceneID="gOf-my-Kl8">
@@ -227,13 +227,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.27058823529999998" green="0.4823529412" blue="0.61568627450000002" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WiZ-7c-d8m">
-                                <rect key="frame" x="163" y="174" width="89" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.27058823529999998" green="0.4823529412" blue="0.61568627450000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="followers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dt1-AK-Rxo">
                                 <rect key="frame" x="163" y="231" width="89" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -242,7 +235,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="My Posts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FgD-QS-Ht8">
-                                <rect key="frame" x="45" y="362" width="70" height="21"/>
+                                <rect key="frame" x="45" y="344" width="70" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.27058823529999998" green="0.4823529412" blue="0.61568627450000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -257,7 +250,7 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="large"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="A9x-9z-NrJ" kind="show" id="klw-zS-xzk"/>
+                                    <segue destination="Nhz-cL-sJx" kind="show" id="IE3-pe-NVn"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5b7-hJ-DAU">
@@ -289,21 +282,28 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="ZRb-M7-4ZY">
-                                <rect key="frame" x="0.0" y="596" width="240" height="128"/>
+                                <rect key="frame" x="0.0" y="573" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="QL3-Mm-gfN">
-                                <rect key="frame" x="226" y="596" width="155" height="128"/>
+                                <rect key="frame" x="226" y="573" width="155" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="4" translatesAutoresizingMaskIntoConstraints="NO" id="uCu-Cu-5GN">
-                                <rect key="frame" x="218" y="450" width="163" height="127"/>
+                                <rect key="frame" x="218" y="401" width="163" height="127"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="30" translatesAutoresizingMaskIntoConstraints="NO" id="hC7-xy-R0x">
-                                <rect key="frame" x="23" y="450" width="195" height="123"/>
+                                <rect key="frame" x="23" y="401" width="195" height="123"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WiZ-7c-d8m">
+                                <rect key="frame" x="163" y="174" width="89" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.27058823529999998" green="0.4823529412" blue="0.61568627450000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="CdR-DK-glg"/>
                         <color key="backgroundColor" red="0.98823529409999999" green="0.97254901959999995" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -323,75 +323,48 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hourglass.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="YDi-d7-POL">
-                                <rect key="frame" x="202" y="476.5" width="240" height="128"/>
+                                <rect key="frame" x="202" y="498.5" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.27058823529999998" green="0.4823529412" blue="0.61568627450000002" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hourglass.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="LcR-T9-K0s">
-                                <rect key="frame" x="202" y="251.5" width="240" height="128"/>
+                                <rect key="frame" x="201" y="240.5" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.27058823529999998" green="0.4823529412" blue="0.61568627450000002" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hourglass.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="s6i-Dt-jY3">
-                                <rect key="frame" x="-15" y="250.5" width="240" height="128"/>
+                                <rect key="frame" x="-15" y="239.5" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.27058823529999998" green="0.4823529412" blue="0.61568627450000002" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Climate Change" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JHL-rS-TxJ">
-                                <rect key="frame" x="45" y="400" width="121" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Racial Equality" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rbf-Hi-Qya">
+                                <rect key="frame" x="41" y="644" width="126" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="SinhalaSangamMN" family="Sinhala Sangam MN" pointSize="20"/>
+                                <color key="textColor" red="0.27058823529999998" green="0.4823529412" blue="0.61568627450000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbn-i1-3bF">
-                                <rect key="frame" x="284" y="401" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vk7-Cd-ETe">
-                                <rect key="frame" x="87" y="622" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="43I-za-37L">
-                                <rect key="frame" x="273" y="598" width="42" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CKc-Mh-3j4">
-                                <rect key="frame" x="246" y="651" width="97" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oAx-bC-jKc">
-                                <rect key="frame" x="257" y="434" width="97" height="34"/>
+                                <rect key="frame" x="274" y="434" width="97" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BIa-wd-7HC">
-                                <rect key="frame" x="69" y="651" width="97" height="34"/>
+                                <rect key="frame" x="57" y="679" width="97" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Home" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vVc-DB-b86">
-                                <rect key="frame" x="11" y="44" width="393" height="142"/>
+                                <rect key="frame" x="20" y="89" width="393" height="142"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="46"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="67"/>
                                 <color key="textColor" red="0.27058823529999998" green="0.4823529412" blue="0.61568627450000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8tZ-8R-asG">
-                                <rect key="frame" x="60" y="434" width="97" height="34"/>
+                                <rect key="frame" x="57" y="434" width="97" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -405,7 +378,7 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="large"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="A9x-9z-NrJ" kind="show" id="1WB-Dx-7mC"/>
+                                    <segue destination="Nhz-cL-sJx" kind="show" id="goh-9L-SmN"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Gg-vs-oyA">
@@ -434,6 +407,33 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.27058823529999998" green="0.4823529412" blue="0.61568627450000002" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Women's Rights" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbn-i1-3bF">
+                                <rect key="frame" x="253" y="398" width="137" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="SinhalaSangamMN" family="Sinhala Sangam MN" pointSize="20"/>
+                                <color key="textColor" red="0.27058823529999998" green="0.4823529412" blue="0.61568627450000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Climate Change" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2rU-Uo-RN2">
+                                <rect key="frame" x="36" y="398" width="138" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="SinhalaSangamMN" family="Sinhala Sangam MN" pointSize="20"/>
+                                <color key="textColor" red="0.27058823529999998" green="0.4823529412" blue="0.61568627450000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Immigration" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7fH-Ru-uS7">
+                                <rect key="frame" x="274" y="644" width="102" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="SinhalaSangamMN" family="Sinhala Sangam MN" pointSize="20"/>
+                                <color key="textColor" red="0.27058823529999998" green="0.4823529412" blue="0.61568627450000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CKc-Mh-3j4">
+                                <rect key="frame" x="273" y="679" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="YNG-Px-owi"/>
                         <color key="backgroundColor" red="0.98039215800000001" green="0.97254908080000002" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -591,7 +591,7 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="large"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="A9x-9z-NrJ" kind="show" id="F6k-Cv-M99"/>
+                                    <segue destination="Nhz-cL-sJx" kind="show" id="B7s-6O-x2K"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4aU-0V-L5H">
@@ -644,9 +644,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="6PK-yP-BVw"/>
-        <segue reference="5OP-3s-NVc"/>
-        <segue reference="klw-zS-xzk"/>
+        <segue reference="RdD-vk-V4O"/>
+        <segue reference="367-Na-41v"/>
+        <segue reference="B7s-6O-x2K"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="2" width="1080" height="1080"/>
