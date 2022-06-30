@@ -12,10 +12,13 @@ class ClimateChangeViewController: UIViewController {
     @IBOutlet weak var listView: UITextView!
     @IBOutlet weak var textField: UITextField!
     var toDo = [String]()
-   // @IBAction func buttonTapped(_ sender: Any) {
-     //   var item = listView.text
-      //  item = item + textField.text
-    //
+    @IBAction func buttonTapped(_ sender: Any) {
+        listView.text =  textField.text! + "\n" + listView.text!
+        textField.text = ""
+    }
+    @IBAction func clearTapped(_ sender: Any) {
+        listView.text = ""
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
