@@ -17,6 +17,11 @@
 		D7DBEDAE286B8FAA00070807 /* OurglassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DBEDAD286B8FAA00070807 /* OurglassTests.swift */; };
 		D7DBEDB8286B8FAA00070807 /* OurglassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DBEDB7286B8FAA00070807 /* OurglassUITests.swift */; };
 		D7DBEDBA286B8FAA00070807 /* OurglassUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DBEDB9286B8FAA00070807 /* OurglassUITestsLaunchTests.swift */; };
+		D7DBEDC7286DED1500070807 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DBEDC6286DED1500070807 /* SignUpViewController.swift */; };
+		D7DBEDC9286DED3500070807 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DBEDC8286DED3500070807 /* SignInViewController.swift */; };
+		D7DBEDCB286DED5A00070807 /* IssuesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DBEDCA286DED5A00070807 /* IssuesViewController.swift */; };
+		D7DBEDCD286DED7400070807 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DBEDCC286DED7400070807 /* ProfileViewController.swift */; };
+		D7DBEDCF286DED8900070807 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DBEDCE286DED8900070807 /* AboutUsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		D7DBEDB3286B8FAA00070807 /* OurglassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OurglassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7DBEDB7286B8FAA00070807 /* OurglassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OurglassUITests.swift; sourceTree = "<group>"; };
 		D7DBEDB9286B8FAA00070807 /* OurglassUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OurglassUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D7DBEDC6286DED1500070807 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		D7DBEDC8286DED3500070807 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		D7DBEDCA286DED5A00070807 /* IssuesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssuesViewController.swift; sourceTree = "<group>"; };
+		D7DBEDCC286DED7400070807 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		D7DBEDCE286DED8900070807 /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +115,11 @@
 				D7DBED95286B8FA900070807 /* SceneDelegate.swift */,
 				D7DBED97286B8FA900070807 /* ViewController.swift */,
 				D7DBED99286B8FA900070807 /* Main.storyboard */,
+				D7DBEDCE286DED8900070807 /* AboutUsViewController.swift */,
+				D7DBEDCC286DED7400070807 /* ProfileViewController.swift */,
+				D7DBEDCA286DED5A00070807 /* IssuesViewController.swift */,
+				D7DBEDC8286DED3500070807 /* SignInViewController.swift */,
+				D7DBEDC6286DED1500070807 /* SignUpViewController.swift */,
 				D7DBED9F286B8FAA00070807 /* Assets.xcassets */,
 				D7DBEDA1286B8FAA00070807 /* LaunchScreen.storyboard */,
 				D7DBEDA4286B8FAA00070807 /* Info.plist */,
@@ -262,9 +277,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7DBED98286B8FA900070807 /* ViewController.swift in Sources */,
+				D7DBEDCF286DED8900070807 /* AboutUsViewController.swift in Sources */,
 				D7DBED9E286B8FA900070807 /* Ourglass.xcdatamodeld in Sources */,
+				D7DBEDC9286DED3500070807 /* SignInViewController.swift in Sources */,
 				D7DBED94286B8FA900070807 /* AppDelegate.swift in Sources */,
 				D7DBED96286B8FA900070807 /* SceneDelegate.swift in Sources */,
+				D7DBEDC7286DED1500070807 /* SignUpViewController.swift in Sources */,
+				D7DBEDCD286DED7400070807 /* ProfileViewController.swift in Sources */,
+				D7DBEDCB286DED5A00070807 /* IssuesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
